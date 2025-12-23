@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<manifest identifier="AiSq5C64-VpE0YuzqfYU9cHzaeBk2LyRGel1wgxp" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>Módulo 2: Funciones</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Módulo 2: Funciones</title>
+        <adlcp:datafromlms>eyJjcHYiOiJHZWwxd2d4cCIsInJsZCI6ZmFsc2V9</adlcp:datafromlms>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+      <file href="scormcontent/lib/main.bundle.js"/>
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/main.bundle.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/00f3MZdWgfFdWnOv-Raleway-Italic.woff" />
+<file href="scormcontent/lib/fonts/jsKWKEZQmFIa3rlE-Raleway-Bold.woff" />
+<file href="scormcontent/lib/fonts/pcZdMiBXkbEwWMks-Raleway-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Light.woff" />
+<file href="scormcontent/lib/fonts/Lato-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Black.woff" />
+<file href="scormcontent/assets/pNLpuXEgiuG673Nq_small.png" />
+<file href="scormcontent/assets/Zp23oxZR1dW3Ck-E_ianY0I0A7geZB-eE-divider_bottom_2_NOPROCESS_.png" />
+<file href="scormcontent/assets/SE8xPwQdtWmjArg0_-OXPHb8v1yOQ_xlc-MOD_00.IMAGEN.SEPARADOR_NOPROCESS_.png" />
+<file href="scormcontent/assets/h8hFnI-T8d7Y9A4__aix4jST5jBgCn4pA-MOD_02.IMAGEN.PRINCIPIOS_DE_CAJA_NEGRA_NOPROCESS_.png" />
+<file href="scormcontent/assets/aD1BiMiGyZJHb9h__u9t8FhXc20ztzzGE-MOD_02.IMAGEN.CONCEPTO_CAJA_NEGRA_NOPROCESS_.png" />
+<file href="scormcontent/assets/TlHB4iIulSI3f_1G_FJyNCab_umkh2-un-MOD_02.IMAGEN.CONCEPTO_CAJA_GRIS_NOPROCESS_.png" />
+<file href="scormcontent/assets/cvNEruPQG9BBIqKv_LGgd0JiEO5i_Gssm-MOD_02.IMAGEN.QUE_ES_UNA_FUNCION_NOPROCESS_.png" />
+<file href="scormcontent/assets/6yO9gD3qVQsqjF9d_Dic8UtVfRHa1pu20-MOD_02.IMAGEN.QUE_PUEDE_HABER_AL_INTERIOR_DE_UNA_FUNCION_NOPROCESS_.png" />
+<file href="scormcontent/assets/z6hXOeR6cEkgnm1M__DPf9YFmUQKYHsEH-MOD_02.IMAGEN.DEFINICION_IMPLEMENTACION_INNOVACION_FUNCIONES_NOPROCESS_.png" />
+<file href="scormcontent/assets/dWyboqDAAPZ5ObYq_lGDxwZHA1rV5Bd3O-MOD_02.IMAGEN.IMPLEMENTACION_EN_PYTHON_NOPROCESS_.png" />
+<file href="scormcontent/assets/XSWrJu4Slyzk1tEs_s9wmXEA648RkNBzJ-MOD_02.IMAGEN.IMPLEMENTACION_EN_PYTHON_2_NOPROCESS_.png" />
+<file href="scormcontent/assets/mqdunJQkyb9tiSSE_AF42OSpohpS0xfYR-MOD_02.IMAGEN.INVOCACION_DE_UNA_FUNCION_NOPROCESS_.png" />
+<file href="scormcontent/assets/fF5uQ1O2O1zA8_Kk_O_qFcGiitGOBiUGU-MOD_02.IMAGEN.PASO_DE_PARAMETROS_NOPROCESS_.png" />
+<file href="scormcontent/assets/tupelE5sYThmO89K_UVB_T1J9ALs1bfmf-MOD_02.IMAGEN.PASO_PARAMETROS_POR_VALOR_NOPROCESS_.png" />
+<file href="scormcontent/assets/J8v9KWopECkBdbmB_vv0lH5yo_6-BEh-v-MOD_02.IMAGEN.PASO_PARAMETROS_POR_REFERENCIA_NOPROCESS_.png" />
+<file href="scormcontent/assets/JSyARBq_VPmd8vCH_x0-QEkekPjkUSRdx-MOD_02.IMAGEN.MODULOS_EN_PYTHON_NOPROCESS_.png" />
+<file href="scormcontent/assets/Q0UPiE3uQOOyzBRm_R8_uT5Y5k3aUZX2n-MOD_02.IMAGEN.CUADRO_MODULOS_DE_PYTHON_NOPROCESS_.png" />
+<file href="scormcontent/assets/rysEcKKINew56f77_Vzz-APguMiiD7hU5-MOD_00.BANNER.BANNER_BIENVENIDA_NOPROCESS_.png" />
+
+    </resource>
+  </resources>
+</manifest>
